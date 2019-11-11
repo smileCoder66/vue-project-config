@@ -21,13 +21,13 @@
 
 ### vscode
 ```
- 文件-> 首选项 -> 用户代码片段 ->
- javascript 配置 在我的snippets/javascript.json有示例
- 可参考(vscode)[https://code.visualstudio.com/docs/editor/userdefinedsnippets]
- 多类文件皆可配置你想要的快捷生成代码~
+文件-> 首选项 -> 用户代码片段 ->
+javascript 配置 在我的snippets/javascript.json有示例
+(可参考vscode)[https://code.visualstudio.com/docs/editor/userdefinedsnippets]
+多类文件皆可配置你想要的快捷生成代码~
 ```
 
-#### last
+### last
 ```
 构建时可以分的更细 类似view -> vue/js/css/api/...
 还有各种做法去规范项目构建的,未完待续~
