@@ -1,0 +1,69 @@
+{
+	"Zxl console": {
+		"prefix": "log",
+		"body": [
+			"console.log($1);"
+		],
+		"description": "Console"
+	},
+	"Zxl forin": {
+		"prefix": "fi",
+		"body": [
+			"for (const ${2:a} in ${1:obj}) {",
+			"\t$0",
+			"}"
+		],
+		"description": "For in"
+	},
+	"Zxl map": {
+		"prefix": "map",
+		"body": [
+			"map((item, index) => {",
+			"\t$0",
+			"})"
+		],
+		"description": "Map"
+	},
+	"Zxl render": {
+		"prefix": "rd",
+		"body": [
+			"render () {",
+			"\treturn (",
+			"\t\t<div>",
+			"\t\t\t$0",
+			"\t\t</div>",
+			"\t)",
+			"}"
+		],
+		"description": "Render"
+	},
+	"Zxl author": {
+		"prefix": "zxl",
+		"body": [
+			"/*",
+			"\tCreateTime: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE,",
+			"\tAuthor: Zxl,",
+			"\tFor $0",
+			"*/"
+		],
+		"description": "Annotation"
+	},
+	"Zxl vue-js": {
+		"prefix": "vs",
+		"body": [
+			"\tdata () {",
+			"\t\treturn {",
+			"\t\t}",
+			"\t},",
+			"\tmethods: {",
+			"\t},",
+			"\tcreated () {",
+			"\t},",
+			"\tmounted () {",
+			"\t},",
+			"\tmethods: {",
+			"\t}"
+		],
+		"description": "Create vue export demo"
+	}
+}

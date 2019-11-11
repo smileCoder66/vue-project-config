@@ -1,7 +1,7 @@
 ### First
 ```
-经常看别人项目时总会好奇别人一些配置的用法,今天抽空浅浅地研究了下类似package.json里的一些项目构筑
-用node去执行某些js 其实也就是一些进入目录读写文件之类的
+主要介绍一些项目如何配置利用项目在npm指令快速生产文件及我们想要的代码覆盖;
+在vscode配置 自动补全代码
 ```
 
 ### todo
@@ -17,6 +17,14 @@
     scripts -> vue的demo
     scripts-ts -> vue+ts的demo
 */
+```
+
+### vscode
+```
+ 文件-> 首选项 -> 用户代码片段 ->
+ javascript 配置 在我的snippets/javascript.json有示例
+ 可参考(vscode)[https://code.visualstudio.com/docs/editor/userdefinedsnippets]
+ 多类文件皆可配置你想要的快捷生成代码~
 ```
 
 #### last
