@@ -20,10 +20,10 @@
 ```
 
 ### vscode
+(vscode官方)[https://code.visualstudio.com/docs/editor/userdefinedsnippets]
 ```
 文件-> 首选项 -> 用户代码片段 ->
-javascript 配置 在我的snippets/javascript.json有示例
-(可参考vscode)[https://code.visualstudio.com/docs/editor/userdefinedsnippets]
+javascript 配置 在我的snippets/javascript.json有示例参考
 多类文件皆可配置你想要的快捷生成代码~
 ```
 
