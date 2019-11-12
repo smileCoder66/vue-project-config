@@ -27,11 +27,11 @@ javascript 配置 在我的snippets/javascript.json有示例参考
 html之类或是其他语言皆可配置你想要的快捷生成代码~
 ```
 
-```json
+```js
 "Zxl console": {//从敲下prefix的第一个字母开始的提示
-    "prefix": "log",
-    "body": [
-        "console.log($1);"
+    "prefix": "log",//从l开始到log 会有提示 
+    "body": [ 
+        "console.log($1);"//-> 在提示选中回车或tab生成的代码片段
     ],
     "description": "Console"//描述
 }
@@ -46,8 +46,9 @@ html之类或是其他语言皆可配置你想要的快捷生成代码~
     "description": "For in"
 }
 /*
+----变量使用
     $0 $1 $2 定义光标生成后的位置,按tab会顺序跳跃
-    $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE -> 2019-11-11
+    例如:$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE -> 2019-11-11
     还有许多变量使用介绍请看官方文档.
 */
 ```
