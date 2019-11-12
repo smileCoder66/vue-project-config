@@ -24,7 +24,32 @@
 ```
 文件-> 首选项 -> 用户代码片段 ->
 javascript 配置 在我的snippets/javascript.json有示例参考
-多类文件皆可配置你想要的快捷生成代码~
+html之类或是其他语言皆可配置你想要的快捷生成代码~
+```
+
+```json
+"Zxl console": {//从敲下prefix的第一个字母开始的提示
+    "prefix": "log",
+    "body": [
+        "console.log($1);"
+    ],
+    "description": "Console"//描述
+}
+
+"Zxl forin": {
+    "prefix": "fi",
+    "body": [
+        "for (const ${2:a} in ${1:obj}) {",
+        "\t$0",
+        "}"
+    ],
+    "description": "For in"
+}
+/*
+    $0 $1 $2 定义光标生成后的位置,按tab会顺序跳跃
+    $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE -> 2019-11-11
+    还有许多变量使用介绍请看官方文档.
+*/
 ```
 
 ### last
